@@ -1,0 +1,59 @@
+
+#header{
+background-color: rgb(91, 91, 206);
+color: white;
+display: flex;
+align-items: center;
+height: 110px;
+
+}
+#head{
+    position: absolute;
+    left: 600px;
+    top: 30px;
+    display: flex;
+    flex-direction:column ; 
+    color: aliceblue;
+}
+#heed{
+    position: absolute;
+    left: 900px;
+    top: 30px;
+    display: flex;
+    flex-direction: column; 
+    color:aliceblue;
+}
+#btn{
+    position: absolute;
+    left: 1100px;
+    top: 55px;
+}
+#main{
+    background-color: rgb(178, 210, 212);
+    height: 480px;
+    padding: 10px;
+    position: relative;
+    left: 0px;
+    right: 0%;
+    top: 0%;
+    bottom: 22px;
+}
+#main > div{
+    position: absolute;
+    top: 40px;
+    left: 900px;
+    /* padding: 1px;
+    margin: 10px; */
+}
+.tex{
+    width: 360px;
+    
+}
+ img{
+    vertical-align: middle;
+    padding: 20px;
+} 
+input{
+    padding: 0px;
+    margin: 10px;
+}
